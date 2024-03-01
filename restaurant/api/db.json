@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "name": "wolf",
+      "email": "wolf@gmail.com",
+      "password": "password",
+      "id": "f261"
+    },
+    {
+      "id": "7be0",
+      "name": "anil",
+      "email": "test@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "00ca",
+      "name": "Bruce",
+      "email": "bruce@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "4adc",
+      "name": "ptere",
+      "email": "ptere@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "e155",
+      "name": "Wolf",
+      "password": "123456",
+      "email": "wolf@email.com"
+    },
+    {
+      "id": "1060",
+      "name": "Bruce",
+      "password": "122345",
+      "email": "bruce.com"
+    }
+  ]
+}
