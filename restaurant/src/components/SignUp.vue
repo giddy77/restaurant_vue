@@ -33,8 +33,17 @@ export default{
             console.warn(result)
 
             if(result.status==201){
-                alert('sign-up successfull');
+                let name = localStorage.setItem('user-info', JSON.stringify(result.data));
+                console.log(name)
+                this.$router.push({name:'HomePage'});
             }
+        },
+    },
+    mounted()
+    {
+        let user = localStorage.getItem('user-info');
+        if(user){
+            this.$router.push({name: 'HomePage'});
         }
     }
 }
