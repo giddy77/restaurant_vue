@@ -1,6 +1,8 @@
 import HomePage from './components/HomePage.vue';
 import SignUp  from './components/SignUp.vue';
 import LoginPage from './components/LoginPage.vue';
+import AddRest from './components/AddRest.vue';
+import UpdateRest from './components/UpdateRest.vue'
 
 import {createRouter, createWebHistory} from 'vue-router';
 
@@ -19,6 +21,16 @@ const routes = [
         name:"Login",
         path: '/login',
         component:LoginPage
+    },
+    {
+        name:"Add",
+        path: '/add',
+        component:AddRest
+    },
+    {
+        name:"Update",
+        path: '/update',
+        component:UpdateRest
     },
 ];
 

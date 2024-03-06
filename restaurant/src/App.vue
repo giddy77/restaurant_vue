@@ -25,6 +25,10 @@ export default {
 
 </style>
 <style>
+.body{
+  margin: 0;
+  padding: 0;
+}
 .logo{
   width: 100px;
 }
