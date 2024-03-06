@@ -77,6 +77,12 @@
       "name": "Consectetur quo odi",
       "password": "Pa$$w0rd!",
       "email": "Qui minus atque volu"
+    },
+    {
+      "id": "7fda",
+      "name": "",
+      "password": "",
+      "email": ""
     }
   ]
 }
